@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{4E5941C4-8A94-48A9-8268-8BE6F53F254E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiOne", "ApiOne\ApiOne.csproj", "{8D08FE7E-FAD3-4E06-B774-82A3C9D27712}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E5941C4-8A94-48A9-8268-8BE6F53F254E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5941C4-8A94-48A9-8268-8BE6F53F254E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5941C4-8A94-48A9-8268-8BE6F53F254E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5941C4-8A94-48A9-8268-8BE6F53F254E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D08FE7E-FAD3-4E06-B774-82A3C9D27712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D08FE7E-FAD3-4E06-B774-82A3C9D27712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D08FE7E-FAD3-4E06-B774-82A3C9D27712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D08FE7E-FAD3-4E06-B774-82A3C9D27712}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BBD8223-BA66-47D0-8971-EDB963CDC062}
+	EndGlobalSection
+EndGlobal
