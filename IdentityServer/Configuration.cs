@@ -95,6 +95,19 @@ namespace IdentityServer
                     //AlwaysIncludeUserClaimsInIdToken = true,
                     AllowOfflineAccess = true,
                     RequireConsent = false
+                },
+                new Client
+                {
+                    ClientId = "client_id_js",
+                    RedirectUris = {"https://localhost:46025/home/signin" },
+                    AllowedGrantTypes = GrantTypes.Implicit,
+                    AllowedScopes =
+                    {
+                        IdentityServer4.IdentityServerConstants.StandardScopes.OpenId,
+                        "ApiOne",
+                    },
+                    AllowAccessTokensViaBrowser = true,
+
                 }
             };
 

@@ -92,7 +92,6 @@ namespace MvcClient.Controllers
                 var test = 1;
             }
 
-
         }
     }
 }
